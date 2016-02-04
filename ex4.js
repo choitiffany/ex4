@@ -66,7 +66,7 @@ $(function () {
     $('section#plannerText').hide();
 
 
-    $('#planner').hover(function () {
+    $('#planner').click(function () {
         $('section#plannerText').slideToggle(500);
 
     });
@@ -74,7 +74,7 @@ $(function () {
     $('section#sketchbookText').hide();
 
 
-    $('#sketchbook').hover(function () {
+    $('#sketchbook').click(function () {
         $('section#sketchbookText').slideToggle(500);
 
     });
@@ -82,14 +82,14 @@ $(function () {
     $('section#walletText').hide();
 
 
-    $('#wallet').hover(function () {
+    $('#wallet').click(function () {
         $('section#walletText').slideToggle(500);
 
     });
     $('section#cheeriosText').hide();
 
 
-    $('#cheerios').hover(function () {
+    $('#cheerios').click(function () {
         $('section#cheeriosText').slideToggle(500);
 
     });
@@ -97,7 +97,7 @@ $(function () {
     $('section#usbText').hide();
 
 
-    $('#usb').hover(function () {
+    $('#usb').click(function () {
         $('section#usbText').slideToggle(500);
 
     });
